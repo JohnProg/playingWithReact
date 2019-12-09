@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &__label {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    @include tablet {
+      width: 32%;
+      margin-bottom: 0;
+    }
+  }
+  &__input {
+    width: 100%;
+    padding-top: 10px;
+  }
+}

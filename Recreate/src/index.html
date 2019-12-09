@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/main.scss" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/font-awesome/css/font-awesome.css"
+    />
+    <title>Recreate</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="collapsible">
+        <header class="collapsible__header">
+          <h2 class="collapsible__header__title">Section Title</h2>
+          <div class="collapsible__header__actions">
+            <button><i class="fa fa-plus"></i></button>
+            <button><i class="fa fa-angle-up"></i></button>
+          </div>
+        </header>
+        <div class="collapsible__body">
+          <article class="card">
+            <header class="card__header">
+              <h3 class="card__header__title">Some text</h3>
+              <div class="card__header__actions">
+                <button><i class="fa fa-star"></i></button>
+                <button><i class="fa fa-play"></i></button>
+              </div>
+            </header>
+            <div class="card__body">
+              <form class="form">
+                <label class="form__label label">
+                  Field1 <span class="label--required">*</span>
+                  <input
+                    type="text"
+                    class="form__input input"
+                    value="201"
+                    autofocus
+                  />
+                </label>
+                <label class="form__label label">
+                  Field1 <span class="label--required">*</span>
+                  <input
+                    type="text"
+                    class="form__input input"
+                    value="6515423"
+                  />
+                </label>
+                <label class="form__label label">
+                  <input
+                    type="text"
+                    class="form__input input"
+                    placeholder="Field 3"
+                  />
+                </label>
+              </form>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

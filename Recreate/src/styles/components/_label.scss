@@ -1,0 +1,11 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: $mainFont;
+  color: color('black-light2');
+  &--required {
+    font-weight: 100;
+  }
+}

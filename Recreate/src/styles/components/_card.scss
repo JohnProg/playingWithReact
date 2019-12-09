@@ -1,0 +1,35 @@
+.card {
+  overflow: hidden;
+  border: 1px solid color('gray-light3');
+  border-radius: 6px;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 15px 20px;
+    background-color: color('gray-light2');
+    &__title {
+      font-family: $mainFont;
+      font-weight: bolder;
+      font-size: 20px;
+      color: color('black-light');
+    }
+    &__actions {
+      .fa {
+        font-size: 22px;
+        &-star {
+          color: color('green');
+          @include mobile {
+            padding-right: 20px;
+          }
+        }
+        &-play {
+          color: color('gray-light6');
+        }
+      }
+    }
+  }
+  &__body {
+    padding: 15px 20px 30px 20px;
+    background-color: color('white');
+  }
+}

@@ -1,0 +1,7 @@
+@function mq($mq-value) {
+  @return map-get($mq, $mq-value);
+}
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}

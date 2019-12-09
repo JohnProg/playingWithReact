@@ -1,0 +1,33 @@
+.collapsible {
+  padding: 1em;
+  background-color: color('white');
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px 1px color('gray-light5');
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    &__title {
+      font-size: 24px;
+      font-family: $mainFont;
+      font-weight: 100;
+      color: color('black-light2');
+    }
+    &__actions {
+      .fa {
+        font-size: 22px;
+        &-plus {
+          padding-right: 20px;
+          color: color('green');
+        }
+        &-angle-up {
+          font-weight: bold;
+          font-size: 26px;
+          color: color('gray-light7');
+        }
+      }
+    }
+  }
+  &__body {
+    margin: 25px 15px 0 15px;
+  }
+}

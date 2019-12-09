@@ -1,0 +1,8 @@
+Basic/node_modules
+Basic/.cache
+Basic/dist
+Recreate/node_modules
+Recreate/.cache
+Recreate/dist
+Dashboard/client/node_modules
+Dashboard/server/node_modules

@@ -1,0 +1,27 @@
+.box-animation {
+  width: 100vh;
+  height: 100px;
+  margin: 20px;
+  padding-bottom: 20px;
+  border: 1px solid color('black');
+  &__button {
+    width: 40px;
+    height: 40px;
+    background-color: color('blue');
+    outline: none;
+    border: none;
+    &--active {
+      animation: move-to-right 1s ease-in 0 normal forwards;
+    }
+  }
+}
+
+@keyframes move-to-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    background-color: color('red');
+    transform: translateX(calc(100vh - 40px));
+  }
+}
